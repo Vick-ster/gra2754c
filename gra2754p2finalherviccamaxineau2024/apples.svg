@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="816.33" height="792" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 816.33 792">
+  <g id="apple1">
+    <image width="305" height="344" transform="translate(0 343.57) scale(.5)" xlink:href="apples-1.png"/>
+  </g>
+  <g id="apple2">
+    <image width="369" height="399" transform="translate(101.46 233.07) scale(.46)" xlink:href="apples-2.png"/>
+  </g>
+  <g id="apple3">
+    <image width="322" height="337" transform="translate(257.15 185.14) scale(.48)" xlink:href="apples-3.png"/>
+  </g>
+  <g id="apple4">
+    <image width="371" height="421" transform="translate(411.71 177.46) scale(.44 .42)" xlink:href="apples-4.png"/>
+  </g>
+  <g id="apple5">
+    <image width="322" height="351" transform="translate(557.34 241.25) scale(.48)" xlink:href="apples-5.png"/>
+  </g>
+  <g id="apple6">
+    <image width="356" height="375" transform="translate(662.19 368.1) scale(.43)" xlink:href="apples-6.png"/>
+  </g>
+</svg>
