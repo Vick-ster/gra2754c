@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+  <title>Cute PJ Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffe6f2; 
+      font-family: "CuteFont Regular", sans-serif; 
+    }
+    #wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    header, footer, main {
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: #ffb3d9; 
+      border-radius: 10px;
+    }
+main {
+    height: 620px;
+}
+main .product-info .product-reviews {
+}
+    h1, h2 {
+      color: #ff66b3; 
+	  font-family: "Cedarvillecursive" ;
+    }
+    p {
+      color: #ff66b3;
+	  font-family: "Cedarvillecursive" ;
+
+    }
+    #product {
+      width: 50%;
+      position: relative;
+      display: inline-block;
+      margin-left: -4px;
+    }
+    #product img {
+      max-width: 100%;
+      border-radius: 10px;
+      border: 2px solid #ff66b3;
+      transition: transform 0.3s;
+      position: absolute;
+      visibility: hidden;
+    }
+    .product-info {
+      width: 35%;
+    }
+    .sizes {
+      margin-bottom: 20px;
+    }
+    .size-btn {
+      padding: 8px 16px;
+      margin-right: 10px;
+      background-color: #ff66b3; 
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .size-btn:hover {
+      background-color: #e64d98; 
+    }
+    .add-to-cart {
+      padding: 10px 20px;
+      background-color: #ff66b3; 
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .add-to-cart:hover {
+      background-color: #e64d98; 
+    }
+    .cute-text {
+      font-size: 18px;
+      color: #ff66b3; 
+      text-align: center;
+    }
+    .heart {
+      color: #ff66b3; 
+    }
+    .product-reviews {
+      margin-top: 20px;
+    }
+    .review {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+    .review p {
+      margin: 0;
+    }
+    .color-selector {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+    }
+    .color-option {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      cursor: pointer;
+      transition: border-color 0.3s;
+      margin-right: 10px;
+    }
+    .color-option:last-child {
+      margin-right: 0;
+    }
+    .color-option:hover {
+      border-color: #ff66b3; 
+    }
+    img {
+      display: inline-block;
+    }
+header {
+    height: auto;
+}
+  .product-container {
+    position: relative;
+}
+.product-container img {
+    position: absolute;
+}
+  section {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+  div .review {
+    margin: 0;
+}
+.product-reviews h3 {
+    color: #FF66B3;
+}
+    main .product-info div {
+    padding: 20px;
+}
+  </style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('back-pj-2.webp','back-pj-3.png','back-pjs')">
+  <div id="wrapper">
+<header>
+	  <img src="logo for retail.png" width="125" height="135" alt="logo"/>
+<h1 style="text-align: center;">Welcome to HERM! <span class="heart">❤</span></h1>
+      <p class="cute-text">Get ready to cuddle up in these adorable pajamas!</p>
+    </header>
+    <main>
+      <section class="product-container"> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('heartpj','','back-pj-2.webp',1)"> <img id="heartpj" src="font-pj-2.webp" alt="heartpj" width="400" height="600"> </a> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('floralpj','','back-pj-3.png',1)"> <img src="front-pj-3.png" alt="floralpj" width="400" height="600" id="floralpj"> </a> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('redpj','','back-pjs',1)"> <img src="front-pj" alt="redpj" width="400" height="600" id="redpj"> </a> </section>
+      <section class="product-info">
+        <h2>Cute Pajamas</h2>
+        <p>Price: $24.99</p>
+        <div class="sizes">
+          <button class="size-btn" onclick="selectSize('S')">S</button>
+          <button class="size-btn" onclick="selectSize('M')">M</button>
+          <button class="size-btn" onclick="selectSize('L')">L</button>
+        </div>
+        <p>Available Colors:</p>
+        <a href="#" onClick="MM_showHideLayers('heartpj','','hide','floralpj','','show','redpj','','hide')"> <img src="flowerpattern.jpg" width="50" height="50" alt=""/> </a> <a href="#" onClick="MM_showHideLayers('heartpj','','show','floralpj','','hide','redpj','','hide')"> <img src="heartpattern.jpg" width="50" height="50" alt=""/> </a> <a href="#" onClick="MM_showHideLayers('heartpj','','hide','floralpj','','hide','redpj','','show')"> <img src="rednopattern.jpg" width="50" height="50" alt=""/> </a>
+        <div>
+          <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+        </div>
+        <div class="product-reviews">
+          <h3>Product Reviews</h3>
+          <div class="review">
+            <p>Great pajamas! So soft and comfy. Definitely recommend.</p>
+            <p>- Emily</p>
+          </div>
+          <div class="review">
+            <p>Love the design! Fits perfectly.</p>
+            <p>- Sarah</p>
+          </div>
+        </div>
+      </section>
+</main>
+</div>
+</div>
+<footer>
+  <p class="cute-text">Thanks for visiting our cute pajama website! Have a magical day! <span class="heart">❤</span></p>
+</footer>
+</div>
+<script>
+  let selectedSize = '';
+  let selectedColor = 'pink';
+
+  function selectSize(size) {
+    selectedSize = size;
+    const buttons = document.querySelectorAll('.size-btn');
+    buttons.forEach(button => {
+      button.classList.remove('active');
+      if (button.innerText === size) {
+        button.classList.add('active');
+      }
+    });
+  }
+
+  function addToCart() {
+    if (!selectedSize) {
+      alert('Please select a size.');
+      return;
+    }
+    alert(`Added size ${selectedSize} (${selectedColor}) to cart.`);
+  }
+
+  function changeColor(color) {
+    selectedColor = color;
+    const imgPath = `front_${color}.jpg`;
+    const imgBackPath = `back_${color}.jpg`;
+    heartpj.src = imgPath;
+    floralpj.src = imgBackPath;
+  }
+</script>
+</body>
+</html>

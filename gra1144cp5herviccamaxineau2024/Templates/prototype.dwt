@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Kamiyada+ | Parent | Hervicca Maxineau, 2024</title>
+<!-- TemplateEndEditable -->
+<link href="../style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+  <header>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../news.html">News</a></li>
+      <li><a href="../store.html">Store</a></li>
+      <li><a href="../videos.html">Videos</a></li>
+      <li><a href="../tour.html">Tour</a></li>
+      <li><a href="../photos.html">Photos</a></li>
+      <li><a href="../mailings.html">Mailings</a></li>
+      <li><a href="../merch.html">Merch</a></li>
+      <li><a href="../blogs.html">Blogs</a></li>
+      <li><a href="../privacy.html">Privacy</a></li>
+    </ul>
+</nav>
+<!-- TemplateBeginEditable name="EditRegion3" -->
+	  <main class="home">
+	    <h1>Home</h1>
+</main>
+<!-- TemplateEndEditable -->
+<footer>
+  <p>© 2024, Hervicca Maxineau. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+</footer>
+</body>
+</html>

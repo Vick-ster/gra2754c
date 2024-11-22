@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+
+wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    padding: 0;
+    max-width: none;
+    display: block;
+    background-color: #000000;
+}
+
+header {
+    background-image: url("header.png");
+    background-size: cover;
+    background-position: center;
+    height: 190px;
+}
+
+h1 {
+    padding: 20px;
+    font-family: 'Special Elite', sans-serif;
+    color: #FFFFFF;
+}
+
+main {
+    background-size: cover;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Special Elite', sans-serif;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #8F0002;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.photo {
+    position: relative;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.tour-info {
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tour-info h2 {
+    font-family: 'Special Elite', sans-serif;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.tour-info p {
+    font-family: 'Special Elite', sans-serif;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.tour-info form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.tour-info input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+.tour-info input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #8F0002;
+    color: #FFFFFF;
+    font-family: 'Special Elite', sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tour-info input[type="submit"]:hover {
+    background-color: #6e001e;
+}
+
+.mailings {
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mailings h1 {
+    font-family: 'Special Elite', sans-serif;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.mailings p {
+    font-family: 'Special Elite', sans-serif;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.mailings form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.mailings input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+.mailings input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #8F0002;
+    color: #FFFFFF;
+    font-family: 'Special Elite', sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.mailings input[type="submit"]:hover {
+    background-color: #6e001e;
+}
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+footer p {
+    font-family: 'Special Elite', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}

@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome to Travelmania</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style type="text/css">
+@import url("webfonts/Trochut_Regular/stylesheet.css");
+@import url("webfonts/CuteFont_Regular/stylesheet.css");
+
+body {
+    margin: 0;
+    background-image: url(turksandcaicos.png.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 15px;
+    background-size: cover;
+}
+header {
+    background-color: #3EABEA;
+    border-radius: 10px;
+    padding: 20px;
+}
+h1 {
+    margin: 0px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+wrapper {
+    display: block;
+    margin: auto;
+    width: 1366px;
+    background-color: transparent;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 55px;
+}
+#Tabs1 ul li {
+    padding: 20px;
+    background-color: rgba(255,255,255,0.70);
+    vertical-align: bottom;
+    border-radius: 10px;
+    height: 100px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    color: rgba(255,255,255,1.00);
+    font-variant: small-caps;
+    /* [disabled]font-size: large; */
+}
+#Tabs1 ul {
+    border: none;
+    background-image: none;
+    padding-left: 334px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 20px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+#Tabs1 {
+    background-image: none;
+    border: none none;
+    padding: 20px;
+    background-color: transparent;
+    text-align: center;
+}
+#Tabs1 div {
+    background-color: rgba(255,255,255,0.50);
+    border-radius: 5px;
+    text-align: center;
+}
+#Tabs1 li {
+    background-color: rgba(251,148,5,0.80);
+    padding: 0;
+    background-image: none;
+}
+#Tabs1 div input , #Tabs1 div select{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: thin solid rgba(62,171,234,1.00);
+}
+#Tabs1 div .search {
+    margin: 20px;
+    background-color: rgba(62,171,234,0.85);
+    color: rgba(0,0,0,1.00);
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: large;
+}
+#tabs-2 .submit {
+    margin: 20px;
+    background-color: rgba(62,171,234,0.35);
+    border-color: rgba(62,171,234,0.35);
+}
+#tabs-2 input {
+    margin-bottom: 5px;
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<header> 
+<h1>TravelMania</h1>
+</header>
+<wrapper>
+<div id="Tabs1">
+  <ul>
+    <li><a href="#tabs-1"><img src="flights.png" width="50" height="55" alt="flights"/>
+		<br>Flights</a></li>
+    <li><a href="#tabs-2"><img src="hotel.png.png" width="50" height="55" alt="hotel"/><br>
+Hotel</a></li>
+    <li><a href="#tabs-3"><img src="cars.png" width="50" height="50" alt=""/><br>
+Cars</a></li>
+    <li><a href="#tabs-4"><img src="cruises.png.png" width="50" height="55" alt=""/><br>
+Cruises</a></li>
+    <li><a href="#tabs-5"><img src="todo.png.png" width="50" height="55" alt=""/><br>
+Todo</a></li>
+  </ul>
+  <div id="tabs-1">
+	  <section>
+<input type="text" placeholder="Leaving From">
+	  <input type="text" placeholder="Going To">
+	  <input type="date">
+	  <select>
+		 
+	    <option value="0" selected="selected">Number of travelers</option>
+	    <option value="1">1</option>
+	    <option value="2">2</option>
+	    <option value="3">3</option>
+	    <option value="4">4</option>
+	    <option value="5+">5+</option>
+	  </select>
+		  </section>
+	  <input type="submit" class="search" value="Search">
+	</div>
+  <div id="tabs-2">
+	  <section class="section1(1)">
+	  <input type="text" placeholder="where to?">
+	  <input type="date">
+	  </section>
+	  <section>
+	  <select>
+		  <option value="0" selected="selected">Number of Guests</option>
+	    <option value="1">1</option>
+	    <option value="2">2</option>
+	    <option value="3">3</option>
+	    <option value="4">4</option>
+	    <option value="5+">5+</option>
+	  </select>
+	  <select>
+		  <option value="0" selected="selected">Number of nights</option>
+	  <option value="1">1</option>
+	    <option value="2">2</option>
+	    <option value="3">3</option>
+	    <option value="4">4</option>
+	    <option value="5+">5+</option>
+	  </select>
+	  </section>
+	  <input type="submit"  class="search">
+  </div>
+  <div id="tabs-3">
+	  <input type="text" placeholder="Pick up">
+	  <input type="date">
+	  <input type="time">
+	  <input type="text" placeholder="Drop-off">
+	  <input type="submit" class="search">
+  </div>
+  <div id="tabs-4">
+<input type="text" placeholder="Destination">  
+<input type="date">	  
+	  <select>
+		  <option value="0" selected="selected">Number of Travelers</option>
+	    <option value="1">1</option>
+	    <option value="2">2</option>
+	    <option value="3">3</option>
+	    <option value="4">4</option>
+	    <option value="5+">5+</option>
+	  </select>
+	  <select>
+	    <option value="0" selected="selected">Cruise length</option>
+	    <option value="1">1 day</option>
+	    <option value="2">2 days</option>
+	    <option value="3">3 days</option>
+	    <option value="4">4 days</option>
+	    <option value="5">5+days</option>
+		<input type="submit" class="search">
+      </select>
+  </div>
+  <div id="tabs-5">
+	  <input type="text" placeholder="Going to">
+	  <input type="date">
+	  <input type="time">
+	  <input type="submit" class="search">
+  </div>
+</div>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</wrapper>
+</body>
+</html>
